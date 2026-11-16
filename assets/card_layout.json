@@ -1,0 +1,286 @@
+{
+ "_comment": "Single source of truth for the reference card. Used by the app (assets) and by tools/make_card.py (PDF). All units are millimetres, origin at the top-left of the card. srgb values are the nominal printed colors. You may add a measured 'lab': [L,a,b] to any patch (e.g. from a colorimeter) and the app will use it instead.",
+ "version": 1,
+ "width": 100,
+ "height": 70,
+ "fiducialSize": 5,
+ "fiducials": [
+  [
+   6,
+   6
+  ],
+  [
+   94,
+   6
+  ],
+  [
+   94,
+   64
+  ],
+  [
+   6,
+   64
+  ]
+ ],
+ "patches": [
+  {
+   "id": "G1",
+   "name": "gray 243",
+   "kind": "gray",
+   "x": 12,
+   "y": 12,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    243,
+    243,
+    243
+   ]
+  },
+  {
+   "id": "G2",
+   "name": "gray 200",
+   "kind": "gray",
+   "x": 25,
+   "y": 12,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    200,
+    200,
+    200
+   ]
+  },
+  {
+   "id": "G3",
+   "name": "gray 160",
+   "kind": "gray",
+   "x": 38,
+   "y": 12,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "id": "G4",
+   "name": "gray 120",
+   "kind": "gray",
+   "x": 51,
+   "y": 12,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    120,
+    120,
+    120
+   ]
+  },
+  {
+   "id": "G5",
+   "name": "gray 80",
+   "kind": "gray",
+   "x": 64,
+   "y": 12,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    80,
+    80,
+    80
+   ]
+  },
+  {
+   "id": "G6",
+   "name": "gray 40",
+   "kind": "gray",
+   "x": 77,
+   "y": 12,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    40,
+    40,
+    40
+   ]
+  },
+  {
+   "id": "P1",
+   "name": "pink 1",
+   "kind": "pink",
+   "x": 12,
+   "y": 23,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    247,
+    238,
+    240
+   ]
+  },
+  {
+   "id": "P2",
+   "name": "pink 2",
+   "kind": "pink",
+   "x": 25,
+   "y": 23,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    242,
+    211,
+    222
+   ]
+  },
+  {
+   "id": "P3",
+   "name": "pink 3",
+   "kind": "pink",
+   "x": 38,
+   "y": 23,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    233,
+    174,
+    202
+   ]
+  },
+  {
+   "id": "P4",
+   "name": "pink 4",
+   "kind": "pink",
+   "x": 51,
+   "y": 23,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    220,
+    134,
+    178
+   ]
+  },
+  {
+   "id": "P5",
+   "name": "pink 5",
+   "kind": "pink",
+   "x": 64,
+   "y": 23,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    201,
+    94,
+    152
+   ]
+  },
+  {
+   "id": "P6",
+   "name": "pink 6",
+   "kind": "pink",
+   "x": 77,
+   "y": 23,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    169,
+    63,
+    124
+   ]
+  },
+  {
+   "id": "C1",
+   "name": "red",
+   "kind": "anchor",
+   "x": 12,
+   "y": 34,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    200,
+    53,
+    46
+   ]
+  },
+  {
+   "id": "C2",
+   "name": "orange",
+   "kind": "anchor",
+   "x": 25,
+   "y": 34,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    229,
+    134,
+    42
+   ]
+  },
+  {
+   "id": "C3",
+   "name": "yellow",
+   "kind": "anchor",
+   "x": 38,
+   "y": 34,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    235,
+    203,
+    58
+   ]
+  },
+  {
+   "id": "C4",
+   "name": "green",
+   "kind": "anchor",
+   "x": 51,
+   "y": 34,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    62,
+    147,
+    72
+   ]
+  },
+  {
+   "id": "C5",
+   "name": "cyan",
+   "kind": "anchor",
+   "x": 64,
+   "y": 34,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    43,
+    159,
+    199
+   ]
+  },
+  {
+   "id": "C6",
+   "name": "blue",
+   "kind": "anchor",
+   "x": 77,
+   "y": 34,
+   "w": 11,
+   "h": 9,
+   "srgb": [
+    51,
+    73,
+    154
+   ]
+  }
+ ],
+ "stripSlot": {
+  "x": 10,
+  "y": 47,
+  "w": 80,
+  "h": 11
+ },
+ "padRadiusMm": 1.5
+}
